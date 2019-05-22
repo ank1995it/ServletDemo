@@ -13,6 +13,7 @@ public void service(HttpServletRequest req,HttpServletResponse res) throws IOExc
 	String s=req.getParameter("name");
 	String s1=req.getParameter("pass");
 	PrintWriter out=res.getWriter();
-	out.println(s+" "+s1);
+	out.println("USername is:"+" "+s);
+	out.println("Password is:"+" "+s1);
 }
 }
