@@ -8,4 +8,12 @@
   <servlet-name>abc</servlet-name>
   <url-pattern>/sub</url-pattern>
   </servlet-mapping>
+  <servlet>
+  <servlet-name>abcd</servlet-name>
+  <servlet-class>com.ank.SqServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>abcd</servlet-name>
+  <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
 </web-app>
